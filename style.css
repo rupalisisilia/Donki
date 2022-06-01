@@ -1,13 +1,15 @@
-*{margin: 0; padding: 0;}
-body{font-family: 'ReithSans', 'SolaimanLipi', "Poppins", sans-serif;}
-img{width: 100%;}
-a{text-decoration: none; color: #000;}
-ul{list-style-type: none;}
-a:hover{color:black}
-
-.header-section{
-	-ms-flex-item-align: center;
-	background: gray;
-	height: 100px;
-	width: 80%;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(./images/reel-back.jpg);
+	background-position: bottom;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
 }
