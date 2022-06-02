@@ -46,12 +46,13 @@ header{
 	justify-content: center;
 }
 .header-content{
-	margin-bottom: 150px;
+	margin-bottom: 120px;
 	color: whitesmoke;
 	text-align: center;
 }
 .header-content h2{
 	font-size: 4vmin;
+	
 }
 .line{
 	width: 150px;
