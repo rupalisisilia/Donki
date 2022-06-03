@@ -16,9 +16,6 @@ ul{
 	text-decoration: underline;
 	font-weight: bold;
 }
-body, html{
-	overflow: hidden;
-}
 
 /* navbar */ 
 .navbar{
