@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=poppins');
 
 * {
 	margin: 0;
@@ -46,7 +46,7 @@ header{
 	justify-content: center;
 }
 .header-content{
-	margin-bottom: 120px;
+	margin-bottom: 150px;
 	color: whitesmoke;
 	text-align: center;
 }
@@ -63,8 +63,8 @@ header{
 }
 .header-content h1{
 	font-size: 7vmin;
-	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 .ctn{
 	padding: 8px 15px;
