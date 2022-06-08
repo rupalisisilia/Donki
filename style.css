@@ -11,6 +11,9 @@
 a{
 	text-decoration: none;
 }
+img{
+	width: 90%;
+}
 ul{
 	list-style: none;
 }
@@ -98,12 +101,13 @@ section{
 	align-items: center;
 	width: 100%;
 	justify-content: space-between;
-	background: cyan;
+	
 }
 .row .col{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
 
 }
 .events .row{
@@ -128,7 +132,7 @@ p{
 .explore{
 	width: 100%;
 	height: 100vh;
-	background-image: url('./images/IMG-20201231-WA0001\ \(1\).jpg');
+	background-image: url('./images/bg2.png');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -150,7 +154,7 @@ p{
 	margin-bottom: 50px;
 }
 .explore-content p{
-	color: rgb(red, green, blue);
+	color: black;
 	font-size: 3vmin;
 }
 .explore-content .ctn{
@@ -158,6 +162,21 @@ p{
 }
 
 /* end explore */ 
+
+/* tours */ 
+
+.tours .row .col{
+	width: 50%;
+}
+.tours .image-gallery{
+	display: flex;
+	flex-wrap: wrap;
+}
+.image-gallery img{
+	max-width: 300px;
+	margin: 10px;
+}
+/* end tours */ 
 
 /* mobile device */
 @media only screen and (max-width:850px){
