@@ -165,16 +165,49 @@ p{
 
 /* tours */ 
 
-.tours .row .col{
-	width: 50%;
+.content-col{
+	width: 40%;
 }
 .tours .image-gallery{
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
 }
 .image-gallery img{
 	max-width: 300px;
 	margin: 10px;
+}
+.image-col{
+	width: 60%;
+}
+.content-col h1{
+	font-size: 7vmin;
+	color: #484872;
+}
+.content-col .line{
+	margin-left: 1px;
+}
+.content-col p{
+	padding: 0;
+	margin: 30px auto;
+}
+.content-col .ctn{
+	margin-left: -100px; 
+}
+
+.footer{
+	width: 100%;
+	min-height: 100px;
+	padding: 20px 80px;
+	margin: 0;
+	background: #484872;
+	text-align: center;
+}
+.footer p{
+	color: whitesmoke;
+	margin: 20px auto;
+	padding: 20px auto;
 }
 /* end tours */ 
 
