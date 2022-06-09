@@ -42,7 +42,6 @@ ul{
 	margin: 0 30px;
 }
 header{
-	width: 100vw;
 	height: 100vh;
 	background-image: url('./images/reel-back.jpg');
 	background-position: bottom;
@@ -52,12 +51,14 @@ header{
 	justify-content: center;
 }
 .header-content{
-	margin-bottom: 150px;
+	margin-bottom: 110px;
 	color: whitesmoke;
 	text-align: center;
 }
+
 .header-content h2{
 	font-size: 4vmin;
+	color: whitesmoke;
 	
 }
 .line{
